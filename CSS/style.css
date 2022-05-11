@@ -1,4 +1,6 @@
 
+
+
 body { 
     margin: 0;
     padding: 0;
@@ -10,9 +12,21 @@ body {
   }
 .navbar-nav li a{
     padding: 5px 9px;
-    color: blueviolet;
+    color: rgba(197, 133, 56, 0.699);
     margin-right: 10px;
     transition: 0.5s ease;
+    font-weight: 800;
+    background-color: #e6e6e6;
+    border-radius: 20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.txt
+{
+  font-family: "Oleo Script Swash Caps";
+  opacity: o 0.8;
+  color: #333333;
+  margin-left:40%;
+  margin-top:16%;
 }
 
 .x10{
@@ -27,6 +41,10 @@ body {
 {
   height: 50%;
   
+}
+.tmp{font-family:"Oleo Script Swash Caps";
+     font-weight: 800;
+     color:#846add;
 }
 .navbar-nav .active a
 {
@@ -75,12 +93,31 @@ body {
     height: 50%;
     text-align: center;
 }
+.donatetxt
+{
+  font-family:"Oleo Script Swash Caps";
+color:#A267AC;
+font-size: 5ch;
+font-weight: 200;
+margin-top:3px;
+
+
+}
 h1{
     font-size: 500%;
     margin-top: 15%;
 }
 p{
     font-size: 300%;
+}
+.bton
+{
+  border-radius: 80%;
+  background-color:#82cfdd;
+ 
+  transition: 0.3s ease-in-out;
+  padding: 10px 30px;
+  color:black;
 }
 .button
 {
@@ -90,6 +127,8 @@ p{
     margin-right: 2%;
     padding: 10px 30px;
     transition: 0.3s ease-in-out;
+    border-radius: 5px;
+    margin-left:45%;
 }
 .button:hover{
     color: white;
